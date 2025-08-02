@@ -1,0 +1,52 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+
+/****** config ******/
+$enable-grid-classes: true; //(default) or false 	Enables the generation of CSS classes for the grid system (e.g., .container, .row, .col-md-1, etc.).
+
+$grid-columns: 12;
+$grid-gutter-width: 1.5rem;
+@import "_projects_variables";
+@import "functions";
+@import "variables";
+// @import "variables-dark";
+
+// @import "maps";  
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+$gutters: 1.5rem !default;
+
+// Optional: Theme-Unterstützung
+@import "utilities"; // Utilities-Map
+@import "reboot"; // Normalize + kleinere Resets
+@import "type"; // Typografie
+@import "images"; // Responsive Images
+// @import "containers";  // Container-Klassen
+@import "grid"; // Flexbox Grid
+// @import "helpers";     // Margin/Padding, etc.
+@import "list-group";
+// @import "utilities/api"; // Utilities Generator
+@import "nav";
+@import "navbar";
+@import "_header.scss";
+@import "_shortcuts.scss";
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

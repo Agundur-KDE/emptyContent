@@ -1,0 +1,56 @@
+/** kate: space-indent on; tab-width 4; indent-width 4; mixed-indent off; replace-tabs on; indent-mode cstyle; **/
+ $spacer: 1rem; //(default), or any value > 0 	Specifies the default spacer value to programmatically generate our spacer utilities.
+ $enable-rounded: true; //(default) or false 	Enables predefined border-radius styles on various components.
+ $enable-shadows: false; //or false (default) 	Enables predefined box-shadow styles on various components.
+ $enable-gradients: false; //or false (default) 	Enables predefined gradients via background-image styles on various components.
+ $enable-transitions: true; //(default) or false 	Enables predefined transitions on various components.
+ $enable-hover-media-query: true; //or false (default) 	Deprecated
+ $enable-caret: true; //(default) or false 	Enables pseudo element caret on .dropdown-toggle.
+ $enable-print-styles: false; //(default) or false 	Enables styles for optimizing printing.ue  Deprecated -> https://github.com/twbs/bootstrap/pull/28339
+ $enable-responsive-font-sizes: false; //or false (default) Enable responsive font-size.
+
+//## Gray and brand colors for use across Bootstrap.
+$gray-base: #000 !default;
+$gray-darker: lighten($gray-base, 13.5%) !default; // #222
+$gray-dark: lighten($gray-base, 20%) !default; // #333
+$gray: lighten($gray-base, 33.5%) !default; // #555
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
+
+$primary:   #2C3E50;
+$secondary: #ECF0F1;
+$success:   #27AE60;
+$danger:    #C0392B;
+$light:     #F8F9FA;
+$dark:      #1B2631;
+$info:      #1ABC9C;
+$body-color: #212529;
+
+$link-color:                              $primary;
+$link-decoration:                         none;
+$link-hover-color:                        darken($link-color, 15%);
+$link-hover-decoration:                   underline;
+// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+$emphasized-link-hover-darken-percentage: 15%;
+
+$enable-grid-classes: true; //(default) or false 	Enables the generation of CSS classes for the grid system (e.g., .container, .row, .col-md-1, etc.).
+
+ $grid-columns:      12;
+ $grid-gutter-width: 1.5rem;
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);

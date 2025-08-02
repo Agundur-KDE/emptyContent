@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--kate: space-indent on; tab-width 4; indent-width 4; mixed-indent off; replace-tabs on; indent-mode xml;-->
+<!--Config options:
+Attributes:
+id: (int) 1-n. Must be unique, must be set
+title: (string) whitespace allowed. must be set
+location: (string) no whitespace, no special chars, must be set, must be unique within siblings
+content_type: (string) content_type must be set
+force_children optional
+-->
+<site>
+    <page id="1" title="BonsaiPress" location="index" titledesc="BonsaiPress" root="true" content_type="standard_html">
+        <addon>canonical::CANONICAL</addon>
+    </page>
+</site>
