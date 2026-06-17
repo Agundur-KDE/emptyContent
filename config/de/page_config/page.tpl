@@ -8,12 +8,8 @@
 
 <!--sebastiany.net::css_dynamic::Start--><!--sebastiany.net::css_dynamic::End-->
 
-<!--sebastiany.net::css_edit::Start--><!--sebastiany.net::css_edit::End-->
-
 <!--sebastiany.net::js_top::Start--><!--sebastiany.net::js_top::End-->
 
 <!--sebastiany.net::js_bottom::Start--><!--sebastiany.net::js_bottom::End-->
 
 <!--sebastiany.net::js_bottom_dynamic::Start--><!--sebastiany.net::js_bottom_dynamic::End-->
-
-<!--sebastiany.net::js_bottom_edit::Start--><!--sebastiany.net::js_bottom_edit::End-->
