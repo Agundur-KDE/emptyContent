@@ -12,7 +12,7 @@ ECMS_CONFIG::$domain        = 'domain.tld';
 /** \defgroup css
  */
 
-ECMS_CONFIG::$default_css = 'main.css';
+ECMS_CONFIG::$default_css = 'master.css';
 
 
 /** local|ftp|ssh **/
