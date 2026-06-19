@@ -1,0 +1,3 @@
+[submodule "static/_resources/js/htmx"]
+	path = static/_resources/js/htmx
+	url = https://github.com/bigskysoftware/htmx
