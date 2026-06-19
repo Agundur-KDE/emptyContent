@@ -1,0 +1,7 @@
+static/ecms/
+static/_ecms_resources/
+static/.htaccess
+static/.htpasswd
+uploads/
+var/news_db/__cache/
+config/ecms_config.php
